@@ -1,3 +1,5 @@
+import 'package:test/expect.dart';
+
 class Dollar {
   int amount;
 
@@ -5,6 +7,10 @@ class Dollar {
 
   Dollar times(int multiplier) {
     return Dollar(amount * multiplier);
+  }
+
+  bool equals(Dollar dollar) {
+    return amount == dollar.amount;
   }
 
 }
