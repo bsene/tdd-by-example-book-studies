@@ -15,12 +15,14 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
     rspec-support (3.10.3)
+    rufo (0.13.0)
 
 PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
   rspec (~> 3.10)
+  rufo (~> 0.13.0)
 
 BUNDLED WITH
    2.2.32
